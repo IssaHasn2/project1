@@ -1,4 +1,3 @@
-import sys
 from PyQt6.QtWidgets import QApplication, QLabel, QLineEdit, QPushButton,QMainWindow
 
 class Calculator(QMainWindow):
