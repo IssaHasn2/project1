@@ -31,14 +31,3 @@ if __name__ == "__main__":
     window = MainWindow()
     window.show()
     app.exec()
-        num1 = float(self.line_edit1.text())
-        num2 = float(self.line_edit2.text())
-
-        result = num1 + num2
-        self.result_label.setText(str(result))
-
-if __name__ == '__main__':
-    app = QApplication([])
-    calculator = Calculator()
-    calculator.show()
-    app.exec()
